@@ -1,0 +1,35 @@
+
+  .footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(to right, rgb(32, 153, 239), rgb(226, 88, 206));
+    color: white;
+    padding: 2px 0;
+    text-align: left;
+    z-index: 10; /* Ensure footer is above other content */
+  }
+  
+  .footer-content {
+ 
+    margin: 0 20px; 
+
+  }
+  
+  .footer-links {
+    margin-top: 10x;
+  }
+  
+  .footer-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+  }
+  
+  .footer-links a:hover {
+    text-decoration: underline;
+  }
+  .subscribe{
+margin-right: 20px ;
+  }

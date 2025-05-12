@@ -1,0 +1,55 @@
+/* components/Sidebar.css */
+.sidebar {
+  width: 400px;
+  background-color: #4c6386cb; /* Tailwind's gray-900 */
+  padding: 1rem;
+  border-radius: 1rem;
+  color: white;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  height: 80vh;
+  overflow-y: auto;
+ margin-top: -30px;
+ margin-left: 10px;
+}
+
+.sidebar h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.game-card {
+  background-color: #374151; /* Tailwind's gray-800 */
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.game-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.game-info {
+  padding: 0.75rem;
+}
+
+.game-title {
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.stars {
+  display: flex;
+  gap: 0.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.rating-text {
+  font-size: 0.875rem;
+  color: #9ca3af; /* Tailwind's gray-400 */
+}
